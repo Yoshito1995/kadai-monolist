@@ -14,5 +14,6 @@
 @endsection
 
 @section('content')
-    どつきまわすぞ
+    @include('items.items')
+    {!! $items->render() !!}
 @endsection
